@@ -13,11 +13,13 @@ div{
 } */
 
 .header{
+    box-sizing: border-box;
     display: flex;
     background-color: #1f2937;
     color: white;
     margin: -1px;
     font-family: 'Trebuchet MS', sans-serif;
+    height: 50px;
 }
 
 .headerlogo,
