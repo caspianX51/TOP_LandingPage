@@ -1,0 +1,76 @@
+/* p,
+ul, 
+div{
+    
+    border: solid red 2px;
+
+}  */
+
+/* FIRST FLEX  */
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    margin: -1px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.headerlogo,
+.header-links{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight:bolder;
+}
+.header-links{
+    gap: 35px;
+    list-style-type: none;
+}
+
+.header-links > li {
+    text-align: center;
+}
+
+.header-links > a{
+    text-decoration: none;
+}
+
+/* SECOND FLEX */
+
+.description{
+    display: flex;
+    height: 400px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.descriptionright,
+.descriptionleft{
+    border: red solid 5px;
+    flex-grow: 1;
+}
+
+.descriptionright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder{
+    border: red solid 5px;
+    background-color: gray;
+    width: 300px;
+    height: 250px;
+    margin: 50px;
+}
