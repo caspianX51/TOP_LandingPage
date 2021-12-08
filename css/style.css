@@ -12,67 +12,80 @@ div{
     padding: 0;
 } */
 
-.header{
-    box-sizing: border-box;
-    display: flex;
-    background-color: #1f2937;
-    color: white;
-    margin: -1px;
-    font-family: 'Trebuchet MS', sans-serif;
-    height: 50px;
+body {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  margin: -1px;
+  height: 50px;
 }
 
 .headerlogo,
-.header-links{
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
+.header-links {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
 }
 
-.headerlogo{
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight:bolder;
+.headerlogo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bolder;
 }
-.header-links{
-    gap: 35px;
-    list-style-type: none;
+.header-links {
+  gap: 35px;
+  list-style-type: none;
 }
 
 .header-links > li {
-    text-align: center;
+  text-align: center;
 }
 
-.header-links > a{
-    text-decoration: none;
+.header-links > a {
+  text-decoration: none;
 }
 
 /* SECOND FLEX */
 
-.description{
-    display: flex;
-    height: 400px;
-    background-color: #1f2937;
-    color: white;
+.description {
+  display: flex;
+  height: 400px;
+  background-color: #1f2937;
+  color: white;
 }
 
 .descriptionright,
+.descriptionleft {
+  border: red solid 5px;
+  flex-grow: 1;
+}
+
+.descriptionright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.placeholder {
+  border: red solid 5px;
+  background-color: gray;
+  width: 300px;
+  height: 250px;
+  margin: 50px;
+}
 .descriptionleft{
-    border: red solid 5px;
-    flex-grow: 1;
-}
-
-.descriptionright{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-
-.placeholder{
-    border: red solid 5px;
-    background-color: gray;
-    width: 300px;
-    height: 250px;
-    margin: 50px;
+#hmtext {
+  font-size: 48px;
+  font-weight: bold;
 }
