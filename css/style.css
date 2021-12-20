@@ -12,7 +12,7 @@ div{
 } */
 
 body {
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -154,4 +154,11 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Fourth section quote */
+
+.quote{
+  height: 250px;
+  background-color: rgb(228, 213, 213);
 }
