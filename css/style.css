@@ -6,7 +6,7 @@ div{
 
 }  */
 
-/* FIRST FLEX  */
+
 /* body{
     margin: 0;
     padding: 0;
@@ -14,33 +14,36 @@ div{
 
 body {
   font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
 }
 
+/* FIRST FLEX  */
 .header {
   box-sizing: border-box;
   display: flex;
   background-color: #1f2937;
   color: white;
-  margin: -1px;
   height: 50px;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .headerlogo,
 .header-links {
   display: flex;
-  flex-grow: 1;
+  flex: 1 1 0;
   align-items: center;
-  justify-content: center;
 }
 
 .headerlogo {
   font-size: 24px;
-  color: #f9faf8;
+  color: #f9faf8; 
   font-weight: bolder;
 }
 .header-links {
   gap: 35px;
   list-style-type: none;
+  justify-content: end;
 }
 
 .header-links > li {
@@ -54,38 +57,59 @@ body {
 /* SECOND FLEX */
 
 .description {
-  display: flex;
-  height: 400px;
   background-color: #1f2937;
   color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 12%;
+  padding-right: 12%;
+  height: 350px;
 }
 
 .descriptionright,
 .descriptionleft {
-  border: red solid 5px;
-  flex-grow: 1;
+  /* border: red solid 5px; */
 }
 
-.descriptionright {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.placeholder {
-  border: red solid 5px;
-  background-color: gray;
-  width: 300px;
-  height: 250px;
-  margin: 50px;
-}
 .descriptionleft{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.descriptionright{
+  display: flex;
+  justify-content: center;
+  flex: 1 1 0;
+  background-color: gray;
+}
+
+
 #hmtext {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 48px;
   font-weight: bold;
+}
+
+#htext{
+}
+
+button{
+  background-color: #3882f6;
+  border-radius: 6px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+/* Third section random information */
+
+.random{
+  
 }
