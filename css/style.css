@@ -6,7 +6,6 @@ div{
 
 }  */
 
-
 /* body{
     margin: 0;
     padding: 0;
@@ -37,7 +36,7 @@ body {
 
 .headerlogo {
   font-size: 24px;
-  color: #f9faf8; 
+  color: #f9faf8;
   font-weight: bolder;
 }
 .header-links {
@@ -73,20 +72,18 @@ body {
   /* border: red solid 5px; */
 }
 
-.descriptionleft{
+.descriptionleft {
   display: flex;
   flex: 1 1 0;
   flex-direction: column;
-  justify-content: center;
 }
 
-.descriptionright{
+.descriptionright {
   display: flex;
   justify-content: center;
   flex: 1 1 0;
   background-color: gray;
 }
-
 
 #hmtext {
   margin-top: 0;
@@ -95,10 +92,10 @@ body {
   font-weight: bold;
 }
 
-#htext{
+#htext {
 }
 
-button{
+button {
   background-color: #3882f6;
   border-radius: 6px;
   width: 100px;
@@ -110,6 +107,51 @@ button{
 
 /* Third section random information */
 
-.random{
-  
+.random {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.r_title {
+  text-align: center;
+  color: #1f2937;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.random-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 68px;
+  flex: 0 0 0;
+}
+
+.r-container {
+  width: 150px;
+  height: 150px;
+  border: 4px rgb(69, 133, 218) solid;
+  border-radius: 12px;
+}
+
+.random-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+
+.r-text {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+
+.r-ct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
