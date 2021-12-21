@@ -12,7 +12,7 @@ div{
 } */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -152,16 +152,16 @@ button {
 
 /* Fourth section quote */
 
-.quote{
+.quote {
   display: flex;
   height: 400px;
-  background-color: #E5E7Eb;
+  background-color: #e5e7eb;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  }
+}
 
-.aquote{
+.aquote {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
@@ -169,7 +169,7 @@ button {
   margin-bottom: 0;
 }
 
-.thor{
+.thor {
   margin-top: 0;
   display: flex;
   justify-content: end;
@@ -180,14 +180,14 @@ button {
 
 /* Fifth Section call to action */
 
-.signup{
+.signup {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 250px;
 }
 
-.bluebg{
+.bluebg {
   display: flex;
   align-items: center;
   background-color: #3882f6;
@@ -201,7 +201,7 @@ button {
   padding-left: 5%;
 }
 
-#itstime{
+#itstime {
   color: white;
   font-size: 25px;
   font-weight: 700;
@@ -210,13 +210,13 @@ button {
   margin-top: 17px;
 }
 
-#signup{
+#signup {
   margin-top: 0;
   color: #f9faf8;
   flex: 1 1 0;
 }
 
-.bluebg > button{
+.bluebg > button {
   background-color: #3882f6;
   border-radius: 6px;
   width: 100px;
@@ -227,4 +227,16 @@ button {
   margin-left: 20%;
   width: 110px;
   flex-shrink: 0;
+}
+
+/* SIXTH SECTION FOOTER */
+
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  height: 60px;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
 }
